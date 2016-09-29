@@ -4,8 +4,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: The SEO Framework 2.7.0\n"
 "Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/autodescription\n"
-"POT-Creation-Date: 2016-09-20 09:32+0100\n"
-"PO-Revision-Date: 2016-09-20 09:32+0100\n"
+"POT-Creation-Date: 2016-09-29 00:59+0100\n"
+"PO-Revision-Date: 2016-09-29 01:21+0100\n"
 "Last-Translator: Pedro Mendonça <ped.gaspar@gmail.com>\n"
 "Language-Team: Pedro Mendonça <ped.gaspar@gmail.com>\n"
 "Language: pt_PT\n"
@@ -87,23 +87,21 @@ msgid "Title Settings"
 msgstr "Definições de título"
 
 #: inc/classes/admin-pages.class.php:244
-#, fuzzy
 msgid "Description Meta Settings"
-msgstr "Definições de metadados da descrição"
+msgstr "Definições de descrição"
 
 #: inc/classes/admin-pages.class.php:255
 msgid "Home Page Settings"
 msgstr "Definições da página inicial"
 
 #: inc/classes/admin-pages.class.php:266
-#, fuzzy
 msgid "Social Meta Settings"
-msgstr "Definições de metadados das redes sociais"
+msgstr "Definições de redes sociais"
 
 #: inc/classes/admin-pages.class.php:277
 #: inc/views/metaboxes/knowledge-metabox.php:56
 msgid "Knowledge Graph Settings"
-msgstr ""
+msgstr "Definições de Knowledge Graph"
 
 #: inc/classes/admin-pages.class.php:288
 msgid "Schema Settings"
@@ -111,13 +109,12 @@ msgstr "Definições de Schema"
 
 #: inc/classes/admin-pages.class.php:299 inc/views/inpost/seo-settings.php:189
 #: inc/views/inpost/seo-settings.php:359
-#, fuzzy
 msgid "Robots Meta Settings"
-msgstr "Definições de metadados dos robôs"
+msgstr "Definições de robôs"
 
 #: inc/classes/admin-pages.class.php:310
 msgid "Webmaster Meta Settings"
-msgstr "Definições de metadados do webmaster"
+msgstr "Definições do webmaster"
 
 #: inc/classes/admin-pages.class.php:321
 msgid "Sitemap Settings"
@@ -712,7 +709,7 @@ msgstr "Título de %s"
 #: inc/views/inpost/seo-settings.php:345
 #, php-format
 msgid "%s Meta Description"
-msgstr ""
+msgstr "Descrição de %s"
 
 #: inc/views/inpost/seo-settings.php:362 inc/views/inpost/seo-settings.php:369
 #: inc/views/inpost/seo-settings.php:376
@@ -753,6 +750,8 @@ msgid ""
 "The meta description can be used to determine the text used under the title "
 "on Search Engine results pages."
 msgstr ""
+"A descrição pode ser usada para definir o texto por baixo do título do site, "
+"nas páginas de resultados de pesquisa dos motores de pesquisa."
 
 #: inc/views/metaboxes/description-metabox.php:45
 msgid "Example Automated Description Output"
@@ -796,7 +795,7 @@ msgstr ""
 
 #: inc/views/metaboxes/description-metabox.php:123
 msgid "The introduction consists of the title and optionally the blogname."
-msgstr ""
+msgstr "A introdução consiste no título e opcionalmente o nome do site."
 
 #: inc/views/metaboxes/description-metabox.php:128
 msgid "Add descriptive Additions to Description"
@@ -808,7 +807,7 @@ msgstr ""
 
 #: inc/views/metaboxes/description-metabox.php:133
 msgid "This creates good meta descriptions"
-msgstr ""
+msgstr "Isto cria boas descrições"
 
 #: inc/views/metaboxes/description-metabox.php:137
 msgid "Add Blogname to Additions"
@@ -853,7 +852,7 @@ msgstr ""
 
 #: inc/views/metaboxes/feed-metabox.php:23
 msgid "This link will not be followed by Search Engines"
-msgstr ""
+msgstr "Esta ligação não será seguida pelos motores de pesquisa"
 
 #: inc/views/metaboxes/feed-metabox.php:35
 msgid "Reading Settings"
@@ -980,7 +979,7 @@ msgstr ""
 
 #: inc/views/metaboxes/homepage-metabox.php:374
 msgid "Home Page Pagination Robots Settings"
-msgstr ""
+msgstr "Definições de robôs para a paginação da página inicial"
 
 #: inc/views/metaboxes/homepage-metabox.php:375
 msgid ""
@@ -988,6 +987,9 @@ msgid ""
 "elsewhere on the website, enabling this option might prevent duplicate "
 "content."
 msgstr ""
+"Se a sua página inicial tem paginação e gera conteúdo que também pode ser "
+"encontrado noutro lugar do site, ao activar isto poderá evitar a duplicação "
+"de conteúdo."
 
 #: inc/views/metaboxes/homepage-metabox.php:383
 #, php-format
@@ -996,7 +998,7 @@ msgstr ""
 
 #: inc/views/metaboxes/knowledge-metabox.php:31
 msgid "Website"
-msgstr "Website"
+msgstr "Site"
 
 #: inc/views/metaboxes/knowledge-metabox.php:36
 msgid "Social Sites"
@@ -1040,7 +1042,7 @@ msgstr "Sobre este site"
 
 #: inc/views/metaboxes/knowledge-metabox.php:93
 msgid "Who or what is your website about?"
-msgstr ""
+msgstr "Sobre o quê ou quem é o seu site?"
 
 #: inc/views/metaboxes/knowledge-metabox.php:99
 msgctxt "...Organization or Person."
@@ -1204,7 +1206,7 @@ msgstr ""
 #: inc/views/metaboxes/robots-metabox.php:140
 #, php-format
 msgid "%s Robots Settings"
-msgstr ""
+msgstr "Definições de robôs para %s"
 
 #: inc/views/metaboxes/robots-metabox.php:149
 #, php-format
@@ -1222,7 +1224,7 @@ msgstr ""
 
 #: inc/views/metaboxes/schema-metabox.php:14
 msgid "Another Schema.org plugin has been detected."
-msgstr ""
+msgstr "Foi detectado outro plugin de Schema.org."
 
 #: inc/views/metaboxes/schema-metabox.php:16
 msgid ""
@@ -1630,7 +1632,7 @@ msgstr ""
 
 #: inc/views/metaboxes/social-metabox.php:200
 msgid "Twitter Card Type"
-msgstr ""
+msgstr "Tipo de cartão do Twitter"
 
 #: inc/views/metaboxes/social-metabox.php:201
 #, fuzzy, php-format
@@ -1728,7 +1730,7 @@ msgstr "Adicionar etiquetas de ligação %s a conteúdos e páginas?"
 #: inc/views/metaboxes/social-metabox.php:310
 #, fuzzy, php-format
 msgid "Add %s link tags to Archives?"
-msgstr "Adicionar etiquetas de ligação %s ao arquivo?"
+msgstr "Adicionar etiquetas %s de ligação ao arquivo?"
 
 #: inc/views/metaboxes/social-metabox.php:314
 #, fuzzy, php-format
